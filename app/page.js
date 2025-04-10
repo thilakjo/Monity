@@ -111,15 +111,15 @@ const LandingPage = () => {
             Ready to Take Control of Your Finances?
           </h2>
           <p className="text-green-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of users who are already managing their finances
-            smarter with Welth
+            Be among the first to experience a smarter way to manage your money
+            with Monity
           </p>
           <Link href="/dashboard">
             <Button
               size="lg"
               className="bg-white text-green-600 hover:bg-green-50 animate-bounce"
             >
-              Start Free Trial
+              Get Started!
             </Button>
           </Link>
         </div>

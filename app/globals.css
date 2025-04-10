@@ -75,9 +75,16 @@ html {
   }
 }
 
+/* Fixes header moves body */
+/* @layer base {
+  html {
+    overflow-y: scroll; 
+  }
+} */
+
 @layer utilities {
   .gradient {
-    @apply bg-gradient-to-br from-[#135029] to-[#0a2e1a];
+    @apply bg-gradient-to-br from-[#16a34a] via-[#166534] to-[#052e16];
   }
   .gradient-title {
     @apply gradient font-extrabold tracking-tighter pr-2 pb-2 text-transparent bg-clip-text;

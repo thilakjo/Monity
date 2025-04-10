@@ -1,13 +1,6 @@
 export const defaultCategories = [
   // Income Categories
   {
-    id: "salary",
-    name: "Salary",
-    type: "INCOME",
-    color: "#5EB89C", // Luxe Green (Jade)
-    icon: "Wallet",
-  },
-  {
     id: "freelance",
     name: "Freelance",
     type: "INCOME",
@@ -22,141 +15,146 @@ export const defaultCategories = [
     icon: "TrendingUp",
   },
   {
-    id: "business",
-    name: "Business",
+    id: "stocks",
+    name: "Stocks",
     type: "INCOME",
-    color: "#D181A8", // Rose Gold
-    icon: "Building",
+    color: "#A881E6", // Soft Purple Luxe
+    icon: "BarChart2",
   },
   {
-    id: "rental",
-    name: "Rental",
+    id: "mutual-funds",
+    name: "Mutual Funds",
     type: "INCOME",
-    color: "#D7B666", // Luxe Amber Gold
-    icon: "Home",
+    color: "#64B6AC", // Cool Teal Luxe
+    icon: "PieChart",
+  },
+  {
+    id: "salary",
+    name: "Salary",
+    type: "INCOME",
+    color: "#7DCFB6", // Mint Luxe
+    icon: "Repeat",
+  },
+  {
+    id: "allowance",
+    name: "Allowance",
+    type: "INCOME",
+    color: "#F3B664", // Luxe Orange
+    icon: "Wallet",
   },
   {
     id: "other-income",
     name: "Other Income",
-    color: "#A4ACB5", // Luxe Slate
     type: "INCOME",
+    color: "#A4ACB5", // Luxe Slate
     icon: "Plus",
   },
 
   // Expense Categories
   {
-    id: "housing",
-    name: "Housing",
+    id: "hostel",
+    name: "Hostel & Rent",
     type: "EXPENSE",
-    color: "#D96C6C", // Muted Luxury Red
+    color: "#D96C6C",
     icon: "Home",
-    subcategories: ["Rent", "Mortgage", "Property Tax", "Maintenance"],
+    subcategories: ["Rent", "Hostel", "PG", "Maintenance"],
   },
   {
-    id: "transportation",
-    name: "Transportation",
+    id: "canteen",
+    name: "Canteen",
     type: "EXPENSE",
-    color: "#EA9262", // Burnt Orange Luxe
-    icon: "Car",
-    subcategories: ["Fuel", "Public Transport", "Maintenance", "Parking"],
+    color: "#E37691",
+    icon: "UtensilsCrossed",
   },
   {
     id: "groceries",
     name: "Groceries",
     type: "EXPENSE",
-    color: "#AACD77", // Soft Lime Luxe
+    color: "#AACD77",
     icon: "Shopping",
   },
   {
-    id: "utilities",
-    name: "Utilities",
+    id: "transportation",
+    name: "Transportation",
     type: "EXPENSE",
-    color: "#5AC9DE", // Luxe Cyan (same as Freelance)
-    icon: "Zap",
-    subcategories: ["Electricity", "Water", "Gas", "Internet", "Phone"],
-  },
-  {
-    id: "entertainment",
-    name: "Entertainment",
-    type: "EXPENSE",
-    color: "#A88FEF", // Soft Violet Luxe
-    icon: "Film",
-    subcategories: ["Movies", "Games", "Streaming Services"],
-  },
-  {
-    id: "food",
-    name: "Food",
-    type: "EXPENSE",
-    color: "#E37691", // Rosewood Luxe
-    icon: "UtensilsCrossed",
-  },
-  {
-    id: "shopping",
-    name: "Shopping",
-    type: "EXPENSE",
-    color: "#D181A8", // Same Luxe Pink as Business
-    icon: "ShoppingBag",
-    subcategories: ["Clothing", "Electronics", "Home Goods"],
+    color: "#EA9262",
+    icon: "Car",
+    subcategories: ["Fuel", "Public Transport", "Parking"],
   },
   {
     id: "healthcare",
     name: "Healthcare",
     type: "EXPENSE",
-    color: "#57B6A3", // Teal Luxe
+    color: "#57B6A3",
     icon: "HeartPulse",
-    subcategories: ["Medical", "Dental", "Pharmacy", "Insurance"],
+    subcategories: ["Medical", "Pharmacy", "Insurance"],
+  },
+  {
+    id: "fitness",
+    name: "Fitness",
+    type: "EXPENSE",
+    color: "#A4ACB5",
+    icon: "Dumbbell",
+    subcategories: ["Gym", "Sports", "Yoga"],
+  },
+  {
+    id: "food",
+    name: "Food",
+    type: "EXPENSE",
+    color: "#E37691",
+    icon: "Pizza",
+  },
+  {
+    id: "shopping",
+    name: "Shopping",
+    type: "EXPENSE",
+    color: "#D181A8",
+    icon: "ShoppingBag",
+    subcategories: ["Clothing", "Accessories", "Gadgets"],
   },
   {
     id: "education",
     name: "Education",
     type: "EXPENSE",
-    color: "#8884D8", // Luxe Indigo (same as Investments)
+    color: "#8884D8",
     icon: "GraduationCap",
-    subcategories: ["Tuition", "Books", "Courses"],
+    subcategories: ["Books", "Courses", "Stationery"],
   },
   {
     id: "personal",
     name: "Personal Care",
     type: "EXPENSE",
-    color: "#E49DD9", // Fuchsia Luxe
+    color: "#E49DD9",
     icon: "Smile",
-    subcategories: ["Haircut", "Gym", "Beauty"],
+    subcategories: ["Salon", "Skincare", "Toiletries"],
   },
   {
-    id: "travel",
-    name: "Travel",
+    id: "smoking",
+    name: "Chai Sutta 🚬",
     type: "EXPENSE",
-    color: "#87C2EB", // Sky Luxe
-    icon: "Plane",
-  },
-  {
-    id: "insurance",
-    name: "Insurance",
-    type: "EXPENSE",
-    color: "#A4ACB5", // Slate Luxe
-    icon: "Shield",
-    subcategories: ["Life", "Home", "Vehicle"],
+    color: "#A0522D",
+    icon: "Flame",
   },
   {
     id: "gifts",
     name: "Gifts & Donations",
     type: "EXPENSE",
-    color: "#DEA5C3", // Light Luxe Pink
+    color: "#DEA5C3",
     icon: "Gift",
   },
   {
     id: "bills",
     name: "Bills & Fees",
     type: "EXPENSE",
-    color: "#EC99AD", // Luxe Rose Blush
+    color: "#EC99AD",
     icon: "Receipt",
-    subcategories: ["Bank Fees", "Late Fees", "Service Charges"],
+    subcategories: ["Fines", "Service Charges", "Late Fees"],
   },
   {
     id: "other-expense",
     name: "Other Expenses",
     type: "EXPENSE",
-    color: "#C3CBD4", // Muted Slate Luxe
+    color: "#C3CBD4",
     icon: "MoreHorizontal",
   },
 ];

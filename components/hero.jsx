@@ -29,7 +29,7 @@ const HeroSection = () => {
   return (
     <section className="pt-40 pb-20 px-4">
       <div className="container mx-auto text-center">
-        <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 gradient-title">
+        <h1 className="text-5xl md:text-8xl lg:text-[105px] pb-6 gradient-title leading-tight md:leading-[1.1] lg:leading-[1.15]">
           Manage Your Finances <br /> with Intelligence
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
@@ -52,8 +52,8 @@ const HeroSection = () => {
           <div ref={imageRef} className="hero-image">
             <Image
               src="/banner.jpeg"
-              width={1280}
-              height={720}
+              width={720}
+              height={360}
               alt="Dashboard Preview"
               className="rounded-lg shadow-2xl border mx-auto"
               priority

@@ -5,24 +5,30 @@ import {
   CreditCard,
   Globe,
   Zap,
+  ReceiptText,
+  Banknote,
+  Lightbulb,
+  Wallet,
+  UserPlus,
+  ListChecks,
 } from "lucide-react";
 
 // Stats Data
 export const statsData = [
   {
-    value: "50K+",
+    value: "45+",
     label: "Active Users",
   },
   {
-    value: "₹2Cr+",
+    value: "₹35K+",
     label: "Transactions Tracked",
   },
   {
-    value: "99.9%",
+    value: "96.3%",
     label: "Uptime",
   },
   {
-    value: "4.9/5",
+    value: "4.3/5",
     label: "User Rating",
   },
 ];
@@ -31,54 +37,58 @@ export const statsData = [
 export const featuresData = [
   {
     icon: <BarChart3 className="h-8 w-8 text-green-600" />,
-    title: "Advanced Analytics",
+    title: "Spending Insights",
     description:
-      "Get detailed insights into your spending patterns with AI-powered analytics",
+      "Track your expenses and discover patterns with the help of AI-driven analytics.",
   },
   {
-    icon: <Receipt className="h-8 w-8 text-green-600" />,
-    title: "Smart Receipt Scanner",
+    icon: <ReceiptText className="h-8 w-8 text-green-600" />,
+    title: "AI Receipt Scanner",
     description:
-      "Extract data automatically from receipts using advanced AI technology",
+      "Upload receipts and let our AI extract and categorize the key details for you.",
   },
   {
     icon: <PieChart className="h-8 w-8 text-green-600" />,
-    title: "Budget Planning",
-    description: "Create and manage budgets with intelligent recommendations",
+    title: "Budget Planner",
+    description:
+      "Set monthly budgets for different categories and get smart suggestions.",
   },
   {
-    icon: <CreditCard className="h-8 w-8 text-green-600" />,
-    title: "Multi-Account Support",
-    description: "Manage multiple accounts and credit cards in one place",
+    icon: <Wallet className="h-8 w-8 text-green-600" />,
+    title: "Account Tracker",
+    description:
+      "Manually add or sync account balances to get a full view of your finances.",
   },
   {
-    icon: <Globe className="h-8 w-8 text-green-600" />,
-    title: "Multi-Currency",
-    description: "Support for multiple currencies with real-time conversion",
+    icon: <Receipt className="h-8 w-8 text-green-600" />,
+    title: "Basic Currency Support",
+    description:
+      "Supports INR and USD with approximate real-time conversion using public APIs.",
   },
   {
     icon: <Zap className="h-8 w-8 text-green-600" />,
-    title: "Automated Insights",
-    description: "Get automated financial insights and recommendations",
+    title: "Smart Suggestions",
+    description:
+      "Get personalized tips and alerts based on your recent spending behavior.",
   },
 ];
 
 // How It Works Data
 export const howItWorksData = [
   {
-    icon: <CreditCard className="h-8 w-8 text-green-600" />,
+    icon: <UserPlus className="h-8 w-8 text-green-600" />,
     title: "1. Create Your Account",
     description:
       "Get started in minutes with our simple and secure sign-up process",
   },
   {
-    icon: <BarChart3 className="h-8 w-8 text-green-600" />,
+    icon: <ListChecks className="h-8 w-8 text-green-600" />,
     title: "2. Track Your Spending",
     description:
       "Automatically categorize and track your transactions in real-time",
   },
   {
-    icon: <PieChart className="h-8 w-8 text-green-600" />,
+    icon: <Lightbulb className="h-8 w-8 text-green-600" />,
     title: "3. Get Insights",
     description:
       "Receive AI-powered insights and recommendations to optimize your finances",
@@ -88,24 +98,24 @@ export const howItWorksData = [
 // Testimonials Data
 export const testimonialsData = [
   {
-    name: "Sarah Johnson",
-    role: "Small Business Owner",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
+    name: "Ananya Rao",
+    role: "ECE Student, RVCE Bangalore",
+    image: "https://randomuser.me/api/portraits/women/84.jpg",
     quote:
-      "Welth has transformed how I manage my business finances. The AI insights have helped me identify cost-saving opportunities I never knew existed.",
+      "Monity helped me keep track of my daily expenses. I love how simple and intuitive it is to use alongside my hectic schedule.",
   },
   {
-    name: "Michael Chen",
-    role: "Freelancer",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
+    name: "Rahul Nair",
+    role: "CSE Student, UVCE Bangalore",
+    image: "https://randomuser.me/api/portraits/men/77.jpg",
     quote:
-      "The receipt scanning feature saves me hours each month. Now I can focus on my work instead of manual data entry and expense tracking.",
+      "Managing food, travel, and college event budgets used to be messy. Monity AI categorization and insights have made a big difference for me.",
   },
   {
-    name: "Emily Rodriguez",
-    role: "Financial Advisor",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
+    name: "Divya Ramesh",
+    role: "MBBS Student, JSS Medical College, Mysore",
+    image: "https://randomuser.me/api/portraits/women/63.jpg",
     quote:
-      "I recommend Welth to all my clients. The multi-currency support and detailed analytics make it perfect for international investors.",
+      "Between clinical rotations and exam prep, I barely had time to manage expenses. Monity takes care of it all—it's like a financial assistant in my pocket.",
   },
 ];

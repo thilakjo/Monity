@@ -26,8 +26,9 @@ export default function NotFound() {
         Page Not Found
       </h2>
       <p className="max-w-md text-monity-600 mb-6 text-lg">
-        Oops! The page you&apos;re looking for doesn&apos;t exist or may have
-        been moved. Let’s get you back on track.
+        Oops! The page you&apos;re looking for doesn&apos;t exist or has been
+        moved. <br />
+        Let&apos;s get you back on track.
       </p>
       <Link href="/">
         <Button className="bg-monity-500 hover:bg-monity-600 text-black px-6 py-3 text-sm font-medium rounded-xl shadow-md transition">

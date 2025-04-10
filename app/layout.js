@@ -14,7 +14,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <ClerkProvider>
+    <ClerkProvider
+      appearance={{
+        layout: {
+          // Set to false to show development mode warnings (default dev UI changes)
+          // Change to true temporarily to simulate production look
+          unsafe_disableDevelopmentModeWarnings: false,
+        },
+      }}
+    >
       <html lang="en">
         <head>
           <link rel="icon" href="/logo-sm.png" sizes="any" />
@@ -24,9 +32,9 @@ export default function RootLayout({ children }) {
           <main className="min-h-screen">{children}</main>
           <Toaster richColors />
 
-          <footer className="bg-blue-50 py-12">
+          <footer className="bg-green-50 py-12">
             <div className="container mx-auto px-4 text-center text-gray-600">
-              <p>Made by me, myself and I 😏</p>
+              <p>© 2025 Monity. All rights reserved.</p>
             </div>
           </footer>
         </body>
